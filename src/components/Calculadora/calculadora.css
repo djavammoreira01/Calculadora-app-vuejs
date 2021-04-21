@@ -1,0 +1,43 @@
+/*eslint-disable*/
+/*eslint-disable-next-line*/
+/*Add "scoped" attribute to limit CSS to this component only*/
+.calculadora {
+margin: 0 auto;
+  width:  400px;
+  font-size: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(50px, auto);
+  border-radius: 20px;
+  text-align: center;
+}
+.display {
+  grid-column: 1/5;
+  background-color: rgb(95, 92, 92);
+  border: 2px solid rgb(12, 12, 12);
+  color: white;
+ border-radius: 10px;
+ margin-bottom:10px;
+}
+.zero {
+  grid-column: 1 / 3;
+}
+.botao {
+  background-color: #f0ecec;
+  border: 2px solid rgb(12, 12, 12);
+  border-radius: 10px;
+   margin-bottom:10px;
+   margin-right:10px;
+   margin-left:10px;
+}
+.operadores {
+  background-color: orange;
+  color: rgb(2, 2, 2);
+  text-align: center;
+}
+.botaoclicado:active {
+    background:rgb(70, 69, 69)
+}
+.operadorclicado:active {
+    background:rgb(252, 114, 2)
+}
